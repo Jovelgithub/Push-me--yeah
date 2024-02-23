@@ -6,7 +6,9 @@ body {
     
 }
 .video-container {
-    width="280" height="200";
+    position: relative;
+    text-align: center;
+    
 }
 #datetime {
        position:absolute;
@@ -26,5 +28,14 @@ body {
        text-align: right;
        color: black;
    }
-   
+   .title {
+       color: blue;
+       font-weight: bold;
+       font-style: italic;
+       top: 0;
+       left:0;
+       right:0;
+       padding:10px;
+   }
+
    
